@@ -1,0 +1,28 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# VS Code local settings
+.vscode/
+
+# Node / frontend dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
